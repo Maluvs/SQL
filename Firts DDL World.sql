@@ -1,0 +1,9 @@
+USE world;
+
+SHOW TABLES; 
+
+SHOW COLUMNS FROM city;
+
+SELECT Name
+FROM city
+WHERE Name LIKE "Gan%";
